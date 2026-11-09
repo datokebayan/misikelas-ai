@@ -1,0 +1,708 @@
+{
+  "kemahiran": [
+    {
+      "id": "S1",
+      "name": "Konsep AI"
+    },
+    {
+      "id": "S2",
+      "name": "Data & Pembelajaran Mesin"
+    },
+    {
+      "id": "S3",
+      "name": "AI Generatif"
+    },
+    {
+      "id": "S4",
+      "name": "Etika & Bias"
+    },
+    {
+      "id": "S5",
+      "name": "AI Berpusatkan Insan"
+    }
+  ],
+  "miskonsepsi": {
+    "M1": {
+      "name": "AI berfikir dan berperasaan seperti manusia",
+      "fix": "Tegaskan bahawa AI mengenal pasti corak dalam data; ia tidak mempunyai kesedaran atau perasaan."
+    },
+    "M2": {
+      "name": "AI sentiasa betul dan tidak pernah silap",
+      "fix": "Tunjukkan contoh output AI yang salah (halusinasi) dan latih pelajar menyemak fakta."
+    },
+    "M3": {
+      "name": "Lebih banyak data sentiasa lebih baik walaupun kualitinya rendah",
+      "fix": "Bincangkan konsep 'sampah masuk, sampah keluar' dan kepentingan data yang bersih serta seimbang."
+    },
+    "M4": {
+      "name": "AI generatif mencari jawapan siap dalam pangkalan data",
+      "fix": "Jelaskan bahawa AI generatif meramal perkataan atau piksel seterusnya, bukan mencari jawapan yang tersimpan."
+    },
+    "M5": {
+      "name": "Bias hanya berlaku jika pembangun berniat jahat",
+      "fix": "Tunjukkan bagaimana data sejarah yang tidak seimbang boleh menghasilkan bias tanpa niat sesiapa."
+    },
+    "M6": {
+      "name": "AI boleh membuat keputusan penting tanpa pengawasan manusia",
+      "fix": "Kukuhkan prinsip 'manusia dalam gelung' dan tanggungjawab manusia ke atas keputusan."
+    },
+    "M7": {
+      "name": "Semua automasi ialah AI",
+      "fix": "Bandingkan peraturan tetap (jika-maka) dengan sistem yang belajar daripada data."
+    }
+  },
+  "soalan": [
+    {
+      "id": "Q01",
+      "s": "S1",
+      "d": -1,
+      "q": "Apakah maksud kecerdasan buatan (AI)?",
+      "o": [
+        "Robot yang boleh berjalan",
+        "Sebarang program komputer",
+        "Mesin yang mempunyai perasaan seperti manusia",
+        "Sistem komputer yang melaksanakan tugas yang biasanya memerlukan kecerdasan manusia"
+      ],
+      "a": 3,
+      "m": {
+        "0": "M7",
+        "1": "M7",
+        "2": "M1"
+      },
+      "h": "Fikirkan tentang TUGAS yang boleh dilakukan, bukan rupa mesin.",
+      "e": "AI ialah sistem yang melaksanakan tugas seperti mengenal pasti corak, membuat ramalan dan memahami bahasa."
+    },
+    {
+      "id": "Q02",
+      "s": "S1",
+      "d": -0.5,
+      "q": "Pembantu suara di telefon memahami arahan anda kerana...",
+      "o": [
+        "Ia dilatih dengan banyak contoh pertuturan untuk mengenal pasti corak",
+        "Ia faham perasaan anda",
+        "Ia membaca fikiran pengguna",
+        "Ada manusia yang mendengar setiap arahan"
+      ],
+      "a": 0,
+      "m": {
+        "1": "M1",
+        "2": "M1",
+        "3": "M6"
+      },
+      "h": "AI belajar daripada contoh.",
+      "e": "Pengecaman suara menggunakan model yang dilatih dengan jutaan contoh audio."
+    },
+    {
+      "id": "Q03",
+      "s": "S1",
+      "d": 0,
+      "q": "Lampu isyarat yang bertukar warna setiap 60 saat ialah contoh...",
+      "o": [
+        "Pembelajaran mesin",
+        "Automasi berasaskan peraturan tetap, bukan AI",
+        "AI kerana ia automatik",
+        "AI generatif"
+      ],
+      "a": 1,
+      "m": {
+        "0": "M7",
+        "2": "M7",
+        "3": "M7"
+      },
+      "h": "Adakah lampu itu belajar daripada data trafik?",
+      "e": "Automasi dengan peraturan tetap tidak belajar daripada data, jadi ia bukan AI."
+    },
+    {
+      "id": "Q04",
+      "s": "S1",
+      "d": 0.4,
+      "q": "Pernyataan manakah yang PALING tepat tentang AI hari ini?",
+      "o": [
+        "AI sangat baik dalam tugas khusus tetapi tidak memahami dunia seperti manusia",
+        "AI tidak boleh melakukan apa-apa tanpa internet",
+        "AI boleh menggantikan semua pekerjaan manusia",
+        "AI mempunyai kesedaran diri"
+      ],
+      "a": 0,
+      "m": {
+        "2": "M6",
+        "3": "M1"
+      },
+      "h": "Kebanyakan AI dibina untuk satu jenis tugas.",
+      "e": "AI semasa ialah 'AI sempit' yang cemerlang dalam tugas tertentu sahaja."
+    },
+    {
+      "id": "Q05",
+      "s": "S1",
+      "d": 0.8,
+      "q": "Sebuah chatbot berkata 'Saya gembira membantu anda'. Ini bermakna...",
+      "o": [
+        "Chatbot mempunyai emosi seperti haiwan",
+        "Chatbot menjana ayat sopan berdasarkan corak bahasa yang dipelajari",
+        "Chatbot itu benar-benar berasa gembira",
+        "Chatbot sedang menipu dengan sengaja"
+      ],
+      "a": 1,
+      "m": {
+        "0": "M1",
+        "2": "M1",
+        "3": "M1"
+      },
+      "h": "Dari mana chatbot belajar ayat seperti itu?",
+      "e": "Ayat itu dijana daripada corak bahasa; AI tidak mengalami perasaan."
+    },
+    {
+      "id": "Q06",
+      "s": "S1",
+      "d": 1.2,
+      "q": "Mesin basuh 'pintar' yang melaras masa basuhan berdasarkan berat dan tahap kotoran yang dipelajari daripada data penggunaan ialah...",
+      "o": [
+        "Robot humanoid",
+        "Bukan AI kerana ia hanya mesin basuh",
+        "AI generatif",
+        "Contoh AI kerana ia menyesuaikan tindakan berdasarkan data"
+      ],
+      "a": 3,
+      "m": {
+        "1": "M7",
+        "2": "M4"
+      },
+      "h": "Kuncinya ialah menyesuaikan diri berdasarkan data.",
+      "e": "Sistem yang belajar dan menyesuaikan tindakan daripada data menggunakan teknik AI."
+    },
+    {
+      "id": "Q07",
+      "s": "S2",
+      "d": -0.8,
+      "q": "Dalam pembelajaran mesin, komputer belajar daripada...",
+      "o": [
+        "Arahan jika-maka yang ditulis satu per satu",
+        "Internet secara automatik tanpa data",
+        "Perasaan pengguna",
+        "Contoh data"
+      ],
+      "a": 3,
+      "m": {
+        "0": "M7",
+        "2": "M1"
+      },
+      "h": "Pembelajaran mesin = belajar daripada contoh.",
+      "e": "Model pembelajaran mesin dilatih menggunakan contoh data untuk mengenal pasti corak."
+    },
+    {
+      "id": "Q08",
+      "s": "S2",
+      "d": -0.2,
+      "q": "Model mengecam kucing dilatih dengan 10,000 gambar kucing yang kabur dan salah label. Apakah kesannya?",
+      "o": [
+        "Model akan menjadi lebih pintar",
+        "Model mungkin kurang tepat kerana kualiti data rendah",
+        "Model tetap tepat kerana datanya banyak",
+        "Tiada kesan langsung"
+      ],
+      "a": 1,
+      "m": {
+        "0": "M3",
+        "2": "M3",
+        "3": "M3"
+      },
+      "h": "Kualiti data sama penting dengan kuantiti.",
+      "e": "Data berkualiti rendah menghasilkan model berkualiti rendah: sampah masuk, sampah keluar."
+    },
+    {
+      "id": "Q09",
+      "s": "S2",
+      "d": 0.2,
+      "q": "Apakah tujuan membahagikan data kepada set latihan dan set ujian?",
+      "o": [
+        "Untuk menguji prestasi model pada data yang belum pernah dilihat",
+        "Supaya model lebih cepat",
+        "Supaya data lebih banyak",
+        "Untuk menjimatkan ruang storan"
+      ],
+      "a": 0,
+      "m": {
+        "2": "M3"
+      },
+      "h": "Bagaimana kita tahu model benar-benar belajar, bukan menghafal?",
+      "e": "Set ujian menilai sama ada model boleh membuat generalisasi kepada data baharu."
+    },
+    {
+      "id": "Q10",
+      "s": "S2",
+      "d": 0.6,
+      "q": "Model meramal harga rumah dengan sangat tepat untuk data latihan tetapi gagal untuk rumah baharu. Ini dipanggil...",
+      "o": [
+        "Underfitting",
+        "Overfitting (terlebih padan)",
+        "AI generatif",
+        "Bias manusia"
+      ],
+      "a": 1,
+      "m": {
+        "0": "M3",
+        "3": "M5"
+      },
+      "h": "Model terlalu 'menghafal' data latihan.",
+      "e": "Overfitting berlaku apabila model menghafal data latihan dan tidak boleh membuat generalisasi."
+    },
+    {
+      "id": "Q11",
+      "s": "S2",
+      "d": 0.9,
+      "q": "Sebuah sekolah ada data peperiksaan 5 tahun dari bandar sahaja. Model ramalan prestasi dibina untuk semua sekolah. Apakah risikonya?",
+      "o": [
+        "Tiada risiko kerana data 5 tahun sudah banyak",
+        "Model mungkin tidak tepat untuk sekolah luar bandar kerana data tidak mewakili",
+        "Model akan menjadi lebih cepat",
+        "Model akan lebih adil"
+      ],
+      "a": 1,
+      "m": {
+        "0": "M3",
+        "3": "M5"
+      },
+      "h": "Adakah data itu mewakili semua kumpulan?",
+      "e": "Data yang tidak mewakili populasi menghasilkan ramalan yang tidak tepat bagi kumpulan yang tertinggal."
+    },
+    {
+      "id": "Q12",
+      "s": "S2",
+      "d": 1.3,
+      "q": "Manakah langkah TERBAIK sebelum melatih model?",
+      "o": [
+        "Gunakan data dari satu sumber sahaja",
+        "Terus latih model dan lihat hasilnya",
+        "Bersihkan data, buang ralat dan pastikan semua kumpulan diwakili",
+        "Kumpul data sebanyak mungkin tanpa menyemaknya"
+      ],
+      "a": 2,
+      "m": {
+        "0": "M3",
+        "1": "M2",
+        "3": "M3"
+      },
+      "h": "Persediaan data ialah langkah paling penting.",
+      "e": "Pembersihan dan keseimbangan data menentukan kualiti model."
+    },
+    {
+      "id": "Q13",
+      "s": "S3",
+      "d": -0.6,
+      "q": "Apakah yang dilakukan oleh AI generatif seperti chatbot?",
+      "o": [
+        "Bertanya kepada pakar manusia",
+        "Mencari jawapan siap dalam pangkalan data",
+        "Menjana kandungan baharu dengan meramal perkataan seterusnya",
+        "Menyalin laman web secara terus"
+      ],
+      "a": 2,
+      "m": {
+        "0": "M6",
+        "1": "M4",
+        "3": "M4"
+      },
+      "h": "Kata kuncinya ialah 'menjana'.",
+      "e": "Model bahasa besar menjana teks dengan meramal perkataan yang paling mungkin seterusnya."
+    },
+    {
+      "id": "Q14",
+      "s": "S3",
+      "d": 0,
+      "q": "Chatbot memberikan rujukan buku yang sebenarnya tidak wujud. Fenomena ini dipanggil...",
+      "o": [
+        "Pepijat perisian biasa",
+        "Penipuan yang disengajakan oleh AI",
+        "Halusinasi AI",
+        "Mustahil kerana AI sentiasa betul"
+      ],
+      "a": 2,
+      "m": {
+        "1": "M1",
+        "3": "M2"
+      },
+      "h": "AI kadangkala menjana maklumat yang kedengaran meyakinkan tetapi palsu.",
+      "e": "Halusinasi berlaku apabila AI menjana maklumat palsu yang kelihatan munasabah."
+    },
+    {
+      "id": "Q15",
+      "s": "S3",
+      "d": 0.3,
+      "q": "Apakah tindakan terbaik selepas mendapat fakta penting daripada chatbot untuk tugasan?",
+      "o": [
+        "Terus salin kerana AI tepat",
+        "Semak fakta dengan sumber yang dipercayai",
+        "Abaikan semua jawapan AI",
+        "Tanya chatbot sekali lagi sahaja"
+      ],
+      "a": 1,
+      "m": {
+        "0": "M2",
+        "3": "M2"
+      },
+      "h": "AI boleh silap.",
+      "e": "Fakta daripada AI perlu disemak dengan sumber berautoriti."
+    },
+    {
+      "id": "Q16",
+      "s": "S3",
+      "d": 0.7,
+      "q": "Jika anda bertanya soalan yang sama dua kali kepada chatbot, jawapannya mungkin berbeza kerana...",
+      "o": [
+        "Ada manusia yang menukar jawapan",
+        "Chatbot sudah lupa",
+        "Proses penjanaan melibatkan unsur kebarangkalian",
+        "Chatbot mencari pangkalan data yang berbeza"
+      ],
+      "a": 2,
+      "m": {
+        "0": "M6",
+        "1": "M1",
+        "3": "M4"
+      },
+      "h": "Penjanaan bukan carian.",
+      "e": "Model memilih perkataan berdasarkan kebarangkalian, jadi output boleh berbeza."
+    },
+    {
+      "id": "Q17",
+      "s": "S3",
+      "d": 1,
+      "q": "Penjana imej AI menghasilkan gambar 'doktor' yang kebanyakannya lelaki. Mengapa?",
+      "o": [
+        "AI tidak suka doktor wanita",
+        "Data latihan mungkin mengandungi lebih banyak gambar doktor lelaki",
+        "AI mencari gambar doktor di internet",
+        "AI memilih secara rawak"
+      ],
+      "a": 1,
+      "m": {
+        "0": "M1",
+        "2": "M4",
+        "3": "M2"
+      },
+      "h": "Output mencerminkan data latihan.",
+      "e": "Ketidakseimbangan dalam data latihan menyebabkan output yang berat sebelah."
+    },
+    {
+      "id": "Q18",
+      "s": "S3",
+      "d": 1.4,
+      "q": "Arahan (prompt) manakah yang paling baik untuk chatbot?",
+      "o": [
+        "'Tulis esei'",
+        "'Buat sesuatu yang bagus'",
+        "'Esei kitar semula sekarang!'",
+        "'Tulis esei 300 patah perkataan tentang kitar semula untuk murid Tahun 5, dalam 3 perenggan'"
+      ],
+      "a": 3,
+      "m": {
+        "0": "M4",
+        "1": "M1"
+      },
+      "h": "Arahan yang jelas dan khusus menghasilkan output yang lebih baik.",
+      "e": "Prompt yang menyatakan topik, khalayak, panjang dan format menghasilkan output yang lebih tepat."
+    },
+    {
+      "id": "Q19",
+      "s": "S4",
+      "d": -0.4,
+      "q": "Bias dalam AI boleh berlaku apabila...",
+      "o": [
+        "AI marah kepada pengguna",
+        "Data latihan tidak seimbang atau mencerminkan ketidakadilan lalu",
+        "Komputer terlalu panas",
+        "Pembangun berniat jahat sahaja"
+      ],
+      "a": 1,
+      "m": {
+        "0": "M1",
+        "3": "M5"
+      },
+      "h": "Bias boleh berlaku tanpa niat sesiapa.",
+      "e": "Bias sering datang daripada data yang tidak seimbang, bukan niat jahat."
+    },
+    {
+      "id": "Q20",
+      "s": "S4",
+      "d": 0.1,
+      "q": "Sistem saringan kerja AI menolak lebih ramai calon wanita kerana dilatih dengan data pekerja lelaki terdahulu. Siapakah yang bertanggungjawab?",
+      "o": [
+        "Tiada sesiapa kerana ia automatik",
+        "AI itu sendiri",
+        "Manusia dan organisasi yang membangun serta menggunakan sistem",
+        "Calon wanita"
+      ],
+      "a": 2,
+      "m": {
+        "0": "M6",
+        "1": "M1"
+      },
+      "h": "AI ialah alat; manusia bertanggungjawab.",
+      "e": "Organisasi yang membangun dan menggunakan AI bertanggungjawab ke atas kesannya."
+    },
+    {
+      "id": "Q21",
+      "s": "S4",
+      "d": 0.5,
+      "q": "Pasukan pembangun tidak berniat jahat, tetapi sistem pengecaman wajah kurang tepat untuk kulit gelap. Ini menunjukkan...",
+      "o": [
+        "Bias boleh berlaku tanpa niat, contohnya akibat data yang tidak mewakili",
+        "Bias mustahil kerana tiada niat jahat",
+        "Sistem itu tepat",
+        "Masalah kamera sahaja"
+      ],
+      "a": 0,
+      "m": {
+        "1": "M5",
+        "2": "M2"
+      },
+      "h": "Niat bukan satu-satunya punca bias.",
+      "e": "Bias tanpa niat berlaku apabila data latihan tidak mewakili semua kumpulan."
+    },
+    {
+      "id": "Q22",
+      "s": "S4",
+      "d": 0.8,
+      "q": "Apakah amalan terbaik apabila memuat naik data pelajar ke aplikasi AI?",
+      "o": [
+        "Muat naik semua maklumat peribadi supaya AI lebih tepat",
+        "Kongsi kata laluan pelajar",
+        "Tiada isu privasi dalam pendidikan",
+        "Gunakan data minimum dan nama samaran untuk melindungi privasi"
+      ],
+      "a": 3,
+      "m": {
+        "0": "M3",
+        "2": "M2"
+      },
+      "h": "Lindungi data peribadi.",
+      "e": "Prinsip data minimum dan nama samaran melindungi privasi pelajar."
+    },
+    {
+      "id": "Q23",
+      "s": "S4",
+      "d": 1.1,
+      "q": "Cara terbaik mengurangkan bias dalam sistem AI ialah...",
+      "o": [
+        "Hanya mengupah pengaturcara yang baik",
+        "Membiarkan AI membetulkan dirinya sendiri",
+        "Mengaudit output, mempelbagaikan data dan melibatkan pelbagai pihak dalam pembangunan",
+        "Menambah data secara rawak"
+      ],
+      "a": 2,
+      "m": {
+        "0": "M5",
+        "1": "M6",
+        "3": "M3"
+      },
+      "h": "Bias perlu diurus secara aktif oleh manusia.",
+      "e": "Audit berterusan, data yang pelbagai dan penglibatan pelbagai pihak membantu mengurangkan bias."
+    },
+    {
+      "id": "Q24",
+      "s": "S4",
+      "d": 1.5,
+      "q": "Pelajar menggunakan AI untuk menulis keseluruhan esei dan menghantarnya sebagai hasil sendiri. Isu utama ialah...",
+      "o": [
+        "Tiada isu kerana AI ialah alat",
+        "Integriti akademik dan ketelusan penggunaan AI",
+        "Esei AI sentiasa sempurna",
+        "AI akan dipersalahkan"
+      ],
+      "a": 1,
+      "m": {
+        "0": "M6",
+        "2": "M2",
+        "3": "M1"
+      },
+      "h": "Kejujuran dan ketelusan.",
+      "e": "Penggunaan AI perlu dinyatakan secara telus untuk menjaga integriti akademik."
+    },
+    {
+      "id": "Q25",
+      "s": "S5",
+      "d": -0.5,
+      "q": "'Manusia dalam gelung' (human-in-the-loop) bermaksud...",
+      "o": [
+        "Manusia digantikan sepenuhnya oleh AI",
+        "AI mengawal manusia",
+        "Manusia hanya menekan butang mula",
+        "Manusia menyemak dan membuat keputusan akhir ke atas output AI"
+      ],
+      "a": 3,
+      "m": {
+        "0": "M6",
+        "1": "M1",
+        "2": "M6"
+      },
+      "h": "Siapa yang membuat keputusan akhir?",
+      "e": "Manusia kekal menyemak dan meluluskan keputusan AI."
+    },
+    {
+      "id": "Q26",
+      "s": "S5",
+      "d": 0,
+      "q": "AI mencadangkan markah esei pelajar. Apakah peranan guru yang paling sesuai?",
+      "o": [
+        "Semak cadangan AI dan membuat keputusan akhir",
+        "Terima semua markah AI tanpa semakan",
+        "Tidak menggunakan AI langsung dalam apa jua keadaan",
+        "Biarkan pelajar menentukan markah"
+      ],
+      "a": 0,
+      "m": {
+        "1": "M2",
+        "3": "M6"
+      },
+      "h": "AI membantu; guru memutuskan.",
+      "e": "Guru menggunakan AI sebagai pembantu tetapi kekal sebagai pembuat keputusan."
+    },
+    {
+      "id": "Q27",
+      "s": "S5",
+      "d": 0.4,
+      "q": "Mengapa sesebuah sistem AI perlu boleh menerangkan keputusannya (kebolehjelasan)?",
+      "o": [
+        "Supaya kelihatan canggih",
+        "Supaya pengguna faham, percaya dan boleh mencabar keputusan yang salah",
+        "Tidak perlu kerana AI sentiasa betul",
+        "Supaya lebih cepat"
+      ],
+      "a": 1,
+      "m": {
+        "2": "M2"
+      },
+      "h": "Bagaimana kita tahu keputusan itu adil?",
+      "e": "Kebolehjelasan membolehkan manusia memahami, mempercayai dan memperbetulkan AI."
+    },
+    {
+      "id": "Q28",
+      "s": "S5",
+      "d": 0.8,
+      "q": "Hospital mahu AI membuat keputusan rawatan sepenuhnya tanpa doktor untuk menjimatkan kos. Pandangan HCAI ialah...",
+      "o": [
+        "AI tidak boleh digunakan langsung di hospital",
+        "Keputusan berisiko tinggi perlu kekal di bawah kawalan dan tanggungjawab doktor",
+        "Setuju kerana AI lebih cepat",
+        "Setuju jika AI mahal"
+      ],
+      "a": 1,
+      "m": {
+        "2": "M6",
+        "3": "M6"
+      },
+      "h": "Keputusan berisiko tinggi memerlukan manusia.",
+      "e": "HCAI menggabungkan automasi tinggi dengan kawalan manusia yang tinggi."
+    },
+    {
+      "id": "Q29",
+      "s": "S5",
+      "d": 1.1,
+      "q": "Reka bentuk aplikasi AI untuk murid Malaysia sebaiknya...",
+      "o": [
+        "Hanya dalam bahasa Inggeris",
+        "Mengambil kira bahasa, budaya dan keperluan pengguna tempatan",
+        "Tidak perlu menguji dengan pengguna",
+        "Menyalin aplikasi luar negara tanpa perubahan"
+      ],
+      "a": 1,
+      "m": {
+        "2": "M2",
+        "3": "M3"
+      },
+      "h": "Teknologi berpusatkan insan bermula dengan pengguna.",
+      "e": "Reka bentuk berpusatkan insan mengambil kira konteks budaya dan menguji bersama pengguna sebenar."
+    },
+    {
+      "id": "Q30",
+      "s": "S5",
+      "d": 1.5,
+      "q": "Ciri manakah menunjukkan sesebuah ejen AI pendidikan direka secara berpusatkan insan?",
+      "o": [
+        "Ejen menghantar kandungan terus kepada murid tanpa semakan",
+        "Ejen tidak boleh dihentikan",
+        "Ejen mengumpul semua data peribadi murid",
+        "Guru boleh menyemak, mengubah dan meluluskan cadangan ejen sebelum digunakan"
+      ],
+      "a": 3,
+      "m": {
+        "0": "M6",
+        "1": "M6",
+        "2": "M3"
+      },
+      "h": "Kawalan manusia ialah kuncinya.",
+      "e": "Ejen berpusatkan insan memberi guru kawalan untuk menyemak dan meluluskan."
+    }
+  ],
+  "misi_demo": {
+    "id": "DEMO",
+    "title": "Misi Kancil di Hutan Data",
+    "topic": "Asas Kecerdasan Buatan",
+    "outcomes": [
+      "Menerangkan maksud AI dan membezakannya daripada automasi biasa",
+      "Menjelaskan peranan data dalam pembelajaran mesin dan AI generatif",
+      "Menilai isu etika, bias dan peranan manusia dalam penggunaan AI"
+    ],
+    "levels": [
+      {
+        "name": "Peringkat 1: Hutan Konsep",
+        "story": "Sang Kancil tersesat di Hutan Konsep. Pokok-pokok di sini berbisik tentang apa itu AI yang sebenar. Bantu Kancil membezakan mesin pintar daripada mesin biasa!",
+        "skills": [
+          "S1",
+          "S2"
+        ]
+      },
+      {
+        "name": "Peringkat 2: Sungai Penjana",
+        "story": "Untuk menyeberangi Sungai Penjana, Kancil perlu memahami bagaimana AI generatif mencipta kata-kata. Hati-hati dengan buaya halusinasi!",
+        "skills": [
+          "S3"
+        ]
+      },
+      {
+        "name": "Peringkat 3: Bukit Bijaksana",
+        "story": "Di puncak Bukit Bijaksana, Kancil perlu membuat keputusan yang adil dan beretika. Ingat, manusia yang membuat keputusan akhir!",
+        "skills": [
+          "S4",
+          "S5"
+        ]
+      }
+    ],
+    "questionIds": [
+      "Q01",
+      "Q02",
+      "Q03",
+      "Q04",
+      "Q05",
+      "Q06",
+      "Q07",
+      "Q08",
+      "Q09",
+      "Q10",
+      "Q11",
+      "Q12",
+      "Q13",
+      "Q14",
+      "Q15",
+      "Q16",
+      "Q17",
+      "Q18",
+      "Q19",
+      "Q20",
+      "Q21",
+      "Q22",
+      "Q23",
+      "Q24",
+      "Q25",
+      "Q26",
+      "Q27",
+      "Q28",
+      "Q29",
+      "Q30"
+    ],
+    "length": 10,
+    "status": "approved",
+    "type": "utama",
+    "createdBy": "Demo"
+  }
+}

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="112" fill="#1b3a6b"/>
+  <circle cx="256" cy="268" r="168" fill="#e08a1e" opacity=".18"/>
+  <path d="M168 150 q-36 -90 16 -100 q32 16 26 104z" fill="#b8743a"/>
+  <path d="M344 150 q36 -90 -16 -100 q-32 16 -26 104z" fill="#b8743a"/>
+  <path d="M176 144 q-20 -62 8 -72 q16 16 16 78z" fill="#e9a98a"/>
+  <path d="M336 144 q20 -62 -8 -72 q-16 16 -16 78z" fill="#e9a98a"/>
+  <ellipse cx="256" cy="248" rx="124" ry="108" fill="#b8743a"/>
+  <ellipse cx="256" cy="306" rx="70" ry="48" fill="#f3dcbc"/>
+  <ellipse cx="204" cy="236" rx="24" ry="29" fill="#1d1a17"/>
+  <ellipse cx="308" cy="236" rx="24" ry="29" fill="#1d1a17"/>
+  <circle cx="210" cy="228" r="8" fill="#fff"/><circle cx="314" cy="228" r="8" fill="#fff"/>
+  <ellipse cx="256" cy="290" rx="18" ry="13" fill="#2b1d14"/>
+  <path d="M230 322 q26 20 52 0" fill="none" stroke="#2b1d14" stroke-width="8" stroke-linecap="round"/>
+  <path d="M390 380 l12 28 l28 12 l-28 12 l-12 28 l-12 -28 l-28 -12 l28 -12z" fill="#f5c542"/>
+</svg>
